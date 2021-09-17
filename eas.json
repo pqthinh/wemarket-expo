@@ -1,0 +1,21 @@
+{
+  "build": {
+    "release": {
+      "env": {
+        "BASE_API_URL": "http://localhost:4000",
+        "apiKey": "AIzaSyCNXYTZYWysW6kCkgA3MMqbA2z6Z7-C0Bg",
+        "authDomain": "easychat-22849.firebaseapp.com",
+        "databaseURL": "https://easychat-22849-default-rtdb.asia-southeast1.firebasedatabase.app",
+        "projectId": "easychat-22849",
+        "storageBucket": "easychat-22849.appspot.com",
+        "messagingSenderId": "213287869941",
+        "appId": "1:213287869941:web:0053d39d90cfaaced0d4bc",
+        "measurementId": "G-TQ679S1022"
+      }
+    },
+    "test": {
+      "distribution": "internal",
+      "extends": "release"
+    }
+  }
+}
