@@ -9,7 +9,6 @@ function* getMoviesFromApi() {
     .get("/movies")
     .then((response) => {
       const movies = response.status === 200 ? response.data : [];
-      console.log(movies);
       return movies;
     })
     .catch((err) => {
